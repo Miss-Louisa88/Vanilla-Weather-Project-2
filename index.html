@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="src/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanilla Weather Project by Louise</title>
+</head>
+
+<body>
+    <div class="weather-app">
+        <header>
+            <form class="search-city" id="searchCity">
+                <input type="search" placeholder="Enter a City" required class="searchFormInput" id="searchFormInput">
+                <input type="submit" value="Search" class="searchButton">
+            </form>
+        </header>
+        <main>
+            <div class="weatherData">
+                <h1 class="city" id="city">Nairobi</h1>
+                <p class="weatherDetails"><span id="time">Wednesday 11:11P.M</span>
+                    <br />
+                    Humidity: <strong id="humidity">8 %</strong> Wind: <strong id="windSpeed">Km/hr</strong>
+                </p>
+            </div>
+            <div class="temperatureContainer">
+                <div id="icon">⛅</div>
+                <div class="temperature" id="temperature">13</div>
+                <div class="unit">°C</div>
+                <div class="weatherForecast" id="forecast"></div>
+            </div>
+        </main>
+        <footer>This Project was coded by <a href="#">Louise Adera</a>, is <a href="#">open sourced on GitHub</a>, and
+            <a href="#">hosted on Netlify</a></footer>
+
+    </div>
+
+</body>
+
+</html>
