@@ -1,3 +1,10 @@
+function searchCity(city) {
+  let apiKey = "594o02104b870cb39413fdbd5t9a24d2";
+  let apiUrl =
+    "https://api.shecodes.io/weather/v1/current?query=Paris&key=${apikey}&units=metric";
+  console.log(apiUrl);
+}
+
 /// To correct this code
 function displayForecast(response) {
   let days = ["Tue", "Wed", "Thur", "Fri", "Sat"];
